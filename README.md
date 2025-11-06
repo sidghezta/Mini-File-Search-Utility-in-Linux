@@ -8,7 +8,7 @@ Mini File Search Utility is a terminal-based script written in Bash that allows 
 
 This project covers Linux shell scripting, file system traversing, and handling of user input; hence, it is an ideal mini-project for both a fresher and an intermediate programmer.
 
-Key Features Feature Description ???? Search by Name Find files containing a specific keyword in their name. ???? Search by Extension Locate files with a given extension (e.g., .txt, .cpp). ???? Search by Size Range Filter files between minimum and maximum byte limits. ???? Recursive Directory Traversal Searches all subdirectories automatically. ⚙️ Lightweight & Fast Uses the find command for quick, native file scanning. ???? Colorized Output Displays clean, color-coded results for readability. ???? Fully Portable Works on all Linux and macOS systems (no dependencies).
+Key Features Feature Description Search by Name Find files containing a specific keyword in their name. Search by Extension Locate files with a given extension (e.g., .txt, .cpp). Search by Size Range Filter files between minimum and maximum byte limits. Recursive Directory Traversal Searches all subdirectories automatically. Lightweight & Fast Uses the find command for quick, native file scanning. Colorized Output Displays clean, color-coded results for readability. Fully Portable Works on all Linux and macOS systems (no dependencies).
 
  How It Works
 
