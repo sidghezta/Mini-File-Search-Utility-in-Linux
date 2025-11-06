@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Mini File Search Utility
-# Author: Rushil Agnihotri
+# Mini File Search Utility in Unix 
+# Author: Siddhant Ghezta
 # Compatible with Git Bash (Windows)
 
 search_by_name() {
@@ -12,9 +12,9 @@ search_by_name() {
     result=$(find "$dir" -type f -name "$name" 2>/dev/null)
     if [ -n "$result" ]; then
         echo "$result"
-        echo "✅ Found!"
+        echo "Found!"
     else
-        echo "❌ Not Found!"
+        echo "Not Found!"
     fi
 }
 
@@ -26,9 +26,9 @@ search_by_extension() {
     result=$(find "$dir" -type f -name "*.$ext" 2>/dev/null)
     if [ -n "$result" ]; then
         echo "$result"
-        echo "✅ Found!"
+        echo "Found!"
     else
-        echo "❌ Not Found!"
+        echo "Not Found!"
     fi
 }
 
@@ -46,9 +46,9 @@ search_by_size() {
     fi
     if [ -n "$result" ]; then
         echo "$result"
-        echo "✅ Found!"
+        echo "Found!"
     else
-        echo "❌ Not Found!"
+        echo "Not Found!"
     fi
 }
 
